@@ -17,7 +17,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install pandoc
-          pandoc -s -t html5 -o index.html index.md --metadata title="Links PPL"
+          pandoc -s -t html5 -o index.html index.md --template=template.html --metadata title="Links PPL"
 
       - name: Setup SSH
         env:
