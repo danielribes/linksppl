@@ -1,0 +1,31 @@
+name: Convert Markdown to HTML and Deploy
+
+on:
+  push:
+    branches:
+      - main  # Ejecutar la acción cuando haya un push en la rama principal
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Convert Markdown to HTML
+        run: |
+          sudo apt-get update
+          sudo apt-get install pandoc
+          pandoc -o index.html index.md
+
+      - name: Setup SSH
+        env:
+          DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+          DEPLOY_PASSWORD: ${{ secrets.DEPLOY_PASSWORD }}
+          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y sshpass rsync
+          sshpass -p "$DEPLOY_PASSWORD" rsync -avz -e "ssh -o StrictHostKeyChecking=no" index.html $DEPLOY_USER@$DEPLOY_SERVER:$DEPLOY_PATH
