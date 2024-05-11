@@ -10,11 +10,16 @@ Usalos bajo tu responsabilidad y consulta siempre con tu oficina de operaciones,
 
 https://tgftp.nws.noaa.gov/data/observations/metar/stations/
 
+Para obtener directamente un METAR concreto añadir a la URL el codigo OACI del aeorpuerto y '.TXT', ejemplo:
+```
+https://tgftp.nws.noaa.gov/data/observations/metar/stations/LELL.TXT
+```
 
+### Datasets con información de aeropuertos a nivel mundial
 
-### Repositorio con codigos OACI de los aeropuertos a nivel mundial
+Repositorio con datos de aeropuertos a nivel mundial, sus codgos OACI, coordenadas, tipologia, etc.
 
-Este repositorio contiene listados con los aeropuertos a nivel mundial, sus codgos OACI, coordenadas, tipologia, etc.
+https://github.com/datasets/airport-codes
 
 
 
