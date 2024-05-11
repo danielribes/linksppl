@@ -1,5 +1,5 @@
 # Plan de vuelo
-* [Planes de vuelo y Boletines NOTAM](https://notampib.enaire.es/icaro)
+* <a href="https://notampib.enaire.es/icaro" target="_blank">ICARO Planes de vuelo y Boletines NOTAM</a>
 * [Espacios aereos y mapas](https://insignia.enaire.es/)
 * [AIP](https://aip.enaire.es/AIP/)
 
