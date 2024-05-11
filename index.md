@@ -1,14 +1,14 @@
-## Plan de vuelo :flight_departure:
+## Plan de vuelo 🛫
 * <a href="https://notampib.enaire.es/icaro" target="_blank">ICARO Planes de vuelo y Boletines NOTAM</a>
 * <a href="https://insignia.enaire.es" target="_blank">Espacios aereos y mapas</a>
 * <a href="https://aip.enaire.es/AIP/" target="_blank">AIP</a>
 
-## Metereologia :sun_behind_small_cloud:
+## Metereologia 🌤
 * <a href="https://ama.aemet.es" target="_blank">AEMET Generación Ruta</a>
 * <a href="https://metar-taf.com/" target="_blank">METAR/TAF Visual Decoder</a>
 * <a href="https://www.windy.com/" target="_blank">Windy: Wind map & weather forecast</a>
 
-## Aeropuertos :flight_arrival:
+## Aeropuertos 🛬
 <dl>
     <dt><strong>LELL - Sabadell</strong></dt>
     <dd><a href="https://aip.enaire.es/AIP/#LELL" target="_blank">AIP LELL</a></dd>
