@@ -7,6 +7,7 @@
 * <a href="https://ama.aemet.es" target="_blank">AEMET Generación Ruta</a>
 * <a href="https://metar-taf.com/" target="_blank">METAR/TAF Visual Decoder</a>
 * <a href="https://www.windy.com/" target="_blank">Windy: Wind map & weather forecast</a>
+* <a href="https://www.meteo.cat/" target="_blank">MeteoCAT</a>
 
 ## Aeropuertos 🛬
 * <strong>LELL - Sabadell: </strong><a href="https://aip.enaire.es/AIP/#LELL" target="_blank">AIP LELL</a>
