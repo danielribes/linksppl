@@ -28,4 +28,4 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y sshpass rsync
-          sshpass -p "$DEPLOY_PASSWORD" rsync -avz -e "ssh -o StrictHostKeyChecking=no" index.html style.css $DEPLOY_USER@$DEPLOY_SERVER:$DEPLOY_PATH
+          sshpass -p "$DEPLOY_PASSWORD" rsync -avz -e "ssh -o StrictHostKeyChecking=no" index.html styles.css $DEPLOY_USER@$DEPLOY_SERVER:$DEPLOY_PATH
