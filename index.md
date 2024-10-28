@@ -8,7 +8,7 @@
 * <a href="https://metar-taf.com/" target="_blank">METAR/TAF Visual Decoder</a>
 * <a href="https://www.windy.com/" target="_blank">Windy: Wind map & weather forecast</a>
 * <a href="https://www.meteo.cat/" target="_blank">meteo.cat Servei Meteorològic de Catalunya</a>
-* <a href="https://astronomia.ign.es/hora-salidas-y-puestas-de-sol" target="_blank">Hora salida 😎 y puesta sol 🌛</a>
+* <a href="https://astronomia.ign.es/hora-salidas-y-puestas-de-sol" target="_blank">Horas salida 😎 y puestas de sol 🌛</a>
 
 
 ## Aeropuertos 🛬
