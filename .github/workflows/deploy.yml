@@ -24,7 +24,7 @@ jobs:
           DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
           DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
           DEPLOY_PASSWORD: ${{ secrets.DEPLOY_PASSWORD }}
-          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH_VFR }}
+          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
         run: |
           sudo apt-get update
           sudo apt-get install -y sshpass rsync
