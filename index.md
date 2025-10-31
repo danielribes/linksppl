@@ -1,6 +1,6 @@
 ## Plan de vuelo 🛫
 * <a href="https://notampib.enaire.es/icaro" target="_blank">ICARO Planes de vuelo y Boletines NOTAM</a>
-* <a href="https://insigniavfr.enaire.es/" target="_blank">Insignia VFR Espacios aereos y mapas</a>
+* <a href="https://insignia.enaire.es/" target="_blank">Insignia VFR Espacios aereos y mapas</a>
 * <a href="https://aip.enaire.es/AIP/" target="_blank">AIP</a>
 
 ## Metereologia 🌤
