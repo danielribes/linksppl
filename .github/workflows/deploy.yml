@@ -17,7 +17,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install pandoc
-          pandoc -s -t html5 -o index.html index.md --template=template.html --metadata title="Links VFR"
+          pandoc -s -t html5 -o index.html index.md --template=template.html --metadata title="Recursos para vuelo VFR"
 
       - name: Setup SSH
         env:
