@@ -23,7 +23,7 @@ jobs:
         env:
           DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
           DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
-          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
+          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH_VFR }}
           DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
         run: |
           sudo apt-get update
