@@ -23,9 +23,19 @@ jobs:
         env:
           DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
           DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
-          DEPLOY_PASSWORD: ${{ secrets.DEPLOY_PASSWORD }}
           DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
         run: |
           sudo apt-get update
           sudo apt-get install -y sshpass rsync
-          sshpass -p "$DEPLOY_PASSWORD" rsync -avz -e "ssh -o StrictHostKeyChecking=no" index.html styles.css $DEPLOY_USER@$DEPLOY_SERVER:$DEPLOY_PATH
+
+          # Configura la clau SSH
+          mkdir -p ~/.ssh
+          echo "$DEPLOY_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          
+          # Afegeix el servidor a known_hosts per evitar preguntes interactives
+          ssh-keyscan -H "$DEPLOY_SERVER" >> ~/.ssh/known_hosts
+
+          # Fes el deploy amb rsync
+          rsync -avz -e "ssh -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=no" index.html styles.css $DEPLOY_USER@$DEPLOY_SERVER:$DEPLOY_PATH
