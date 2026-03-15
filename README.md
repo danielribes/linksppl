@@ -1,6 +1,6 @@
 # Links PPL
 
-Una recopilación de links a recursos habituales para PPL. Puedes verlos en: https://danielribes.com/ppl/
+Una recopilación de links a recursos habituales para vuelo VFR. Puedes verlos en: https://danielribes.com/vfr/
 
 Úsalos bajo tu responsabilidad y consulta siempre con tu oficina de operaciones, aeropuerto o instructor de vuelo.
 
