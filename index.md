@@ -9,7 +9,7 @@
 * <a href="https://www.windy.com/" target="_blank">Windy: Wind map & weather forecast</a>
 * <a href="https://www.meteo.cat/" target="_blank">meteo.cat Servei Meteorològic de Catalunya</a>
 * <a href="https://astronomia.ign.es/hora-salidas-y-puestas-de-sol" target="_blank">Horas salida 😎 y puestas de sol 🌛</a>
-  * <strong>Barcelona:</strong> <a href="https://cdn.mitma.gob.es/portal-web-drupal/salidapuestasol/2025/Barcelona-2025.txt" target="_blank">2025</a>
+  * <strong>Barcelona:</strong> <a href="https://cdn.mitma.gob.es/portal-web-drupal/salidapuestasol/2026/Barcelona-2026.txt" target="_blank">2025</a>
 
 ## Aeropuertos 🛬
 * <strong>LELL - Sabadell: </strong><a href="https://aip.enaire.es/AIP/#LELL" target="_blank">AIP LELL</a>
